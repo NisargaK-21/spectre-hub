@@ -1,12 +1,14 @@
+const dotenv = require("dotenv");
+
+dotenv.config();
+
 const express = require("express");
 const cors = require("cors");
-const dotenv = require("dotenv");
+
 
 const connectDB = require("./config/db");
 const stageRoutes = require("./routes/stage");
 const reviewRoutes = require("./routes/review");
-
-dotenv.config();
 
 console.log(process.env.GEMINI_API_KEY);
 connectDB();
