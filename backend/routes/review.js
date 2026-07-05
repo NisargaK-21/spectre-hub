@@ -1,11 +1,12 @@
 const express = require("express");
 const ai = require("../config/gemini");
+const Progress = require("../models/Progress");
 
 const router = express.Router();
 
 router.post("/", async (req, res) => {
   try {
-    const { code, challenge } = req.body;
+    const { uid, stage, code, challenge } = req.body;
 
     const prompt = `
 You are an expert web development mentor.
@@ -31,8 +32,27 @@ Return:
       contents: prompt,
     });
 
+    const review = response.text;
+
+    const match = review.match(/(\d+)\/10/);
+
+    const score = match ? Number(match[1]) : 0;
+
+    const completed = score >= 7;
+
+    await Progress.create({
+      uid,
+      stage,
+      submittedCode: code,
+      review,
+      score,
+      completed,
+    });
+
     res.json({
-      review: response.text,
+      review,
+      score,
+      completed,
     });
 
   } catch (error) {

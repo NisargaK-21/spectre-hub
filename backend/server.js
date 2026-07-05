@@ -9,6 +9,7 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const stageRoutes = require("./routes/stage");
 const reviewRoutes = require("./routes/review");
+const userRoutes = require("./routes/user");
 
 console.log(process.env.GEMINI_API_KEY);
 connectDB();
@@ -19,6 +20,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/stages", stageRoutes);
+app.use("/api/user", userRoutes);
 app.use("/api/review", reviewRoutes);
 
 app.get("/", (req, res) => {

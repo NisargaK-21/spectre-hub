@@ -3,6 +3,7 @@
 import { use, useEffect, useState } from "react";
 import api from "@/services/api";
 import CodeEditor from "@/components/CodeEditor";
+import { auth } from "@/services/firebase";
 
 export default function StagePage({ params }) {
 
@@ -40,9 +41,9 @@ export default function StagePage({ params }) {
   try {
 
     const res = await api.post("/review", {
-
+      uid: auth.currentUser.uid,
+      stage: stage.slug,
       code,
-
       challenge: stage.challenge,
 
     });
