@@ -24,7 +24,7 @@
 
 ---
 
-## 🕯️ About the Project
+## About the Project
 
 > **Spectre-Hub** is an AI-powered web development learning platform designed to teach modern web development — from **HTML to Deployment** — through an immersive learning experience.
 
@@ -123,7 +123,7 @@ A complete learning history — completed stages, AI review history, and profile
 `Firebase Authentication`
 
 ### AI
-`Gemini API` &nbsp;•&nbsp; `Grok API`
+`Gemini API` &nbsp;
 
 </div>
 
