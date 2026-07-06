@@ -67,7 +67,6 @@ export default function StagePage({ params }) {
   const [code, setCode] = useState("");
   const [review, setReview] = useState("");
 
-  // UI-only state for the interactive quiz reveal (no submission, no API call).
   const [selectedOption, setSelectedOption] = useState(null);
 
   useEffect(() => {
@@ -118,8 +117,6 @@ export default function StagePage({ params }) {
 
 };
 
-  // Derived, display-only data for the flashcards section.
-  // Built purely from fields already present on `stage` — no new data model, no extra fetches.
   const flashcards = [
     stage.theory && {
       front: `What is ${stage.title}?`,
@@ -154,7 +151,6 @@ export default function StagePage({ params }) {
 
     <main className="min-h-screen bg-black text-white p-10">
 
-      {/* Sticky in-page navigation for quick access to each learning section */}
       <nav className="sticky top-0 z-10 -mx-10 mb-6 border-b border-zinc-800 bg-black/80 backdrop-blur px-10 py-3">
         <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-mono">
           {navLinks.map((link) => (
@@ -170,7 +166,6 @@ export default function StagePage({ params }) {
         </ul>
       </nav>
 
-      {/* Hero */}
       <div className="border border-zinc-800 rounded-2xl p-8 bg-gradient-to-br from-zinc-900 via-black to-zinc-900">
 
         <div className="flex flex-wrap items-center gap-3">
@@ -194,8 +189,6 @@ export default function StagePage({ params }) {
           {stage.description}
         </p>
       </div>
-
-      {/* Theory */}
 
       <div className="mt-10">
 
@@ -301,7 +294,6 @@ export default function StagePage({ params }) {
 
       </div>
 
-      {/* Revision Flashcards */}
       <div className="mt-10">
 
         <SectionHeading eyebrow="05" title="Revision Flashcards" id="flashcards" />

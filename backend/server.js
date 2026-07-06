@@ -11,7 +11,6 @@ const stageRoutes = require("./routes/stage");
 const reviewRoutes = require("./routes/review");
 const userRoutes = require("./routes/user");
 
-console.log(process.env.GEMINI_API_KEY);
 connectDB();
 
 const app = express();
