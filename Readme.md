@@ -1,5 +1,9 @@
 # Spectre-Hub
 
+# working demo link 
+https://spectre-hub-frontend.vercel.app/
+
+
 > **Learn Web Development Through a Horror-Themed Adventure.**
 
 Spectre-Hub is an AI-powered web development learning platform designed to teach modern web development from **HTML to Deployment** through an immersive horror-themed experience.
@@ -145,10 +149,10 @@ spectre-hub/
 │   ├── services/
 │   │     ├── api.js                           # Backend API Calls
 │   │     └── firebase.js                      # Firebase Configuration
-│   │
-│   └── utils/
-│         ├── helpers.js                       # Helper Functions
-│         └── constants.js                     # Application Constants
+│  
+│  
+│        
+│                     
 │
 │
 ├── backend/                                   # Express Backend
@@ -373,16 +377,11 @@ Authentication is completely managed by **Firebase Authentication**, making the 
 
 # Future Enhancements
 
-- Horror Story Campaign
 - Boss Battles
 - XP System
 - Daily Challenges
 - Achievements
-- Certificates
-- Leaderboards
 - AI Mentor
-- Discussion Forum
 - Dark Mode Themes
-- Custom Avatars
 - Streak Tracking
-- Multiplayer Coding Battles
+- Coding assessment
