@@ -4,6 +4,7 @@ import { use, useEffect, useState } from "react";
 import api from "@/services/api";
 import CodeEditor from "@/components/CodeEditor";
 import { auth } from "@/services/firebase";
+import { useAuth } from "@/context/AuthContext";
 
 function SectionHeading({ eyebrow, title, id }) {
   return (
@@ -62,6 +63,7 @@ function FlashCard({ front, back, index }) {
 export default function StagePage({ params }) {
 
   const { slug } = use(params);
+  const { user } = useAuth();
 
   const [stage, setStage] = useState(null);
   const [code, setCode] = useState("");
@@ -96,25 +98,23 @@ export default function StagePage({ params }) {
     );
 
     const submitCode = async () => {
+  if (!user) {
+  alert("Please login first.");
+  return;
+}
 
   try {
-
     const res = await api.post("/review", {
-      uid: auth.currentUser.uid,
-      stage: stage.slug,
-      code,
-      challenge: stage.challenge,
-
-    });
+  uid: user.uid,
+  stage: stage.slug,
+  code,
+  challenge: stage.challenge,
+});
 
     setReview(res.data.review);
-
   } catch (err) {
-
-    console.log(err);
-
+    console.error(err);
   }
-
 };
 
   const flashcards = [
