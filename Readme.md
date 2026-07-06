@@ -1,18 +1,9 @@
 <div align="center">
 
 # SPECTRE-HUB
-
 ### Learn Web Development 
 
-
-
 </div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/lightning.gif" width="100%">
-</p>
-
----
 
 ## 📖 Table of Contents
 
