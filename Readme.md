@@ -4,21 +4,7 @@
 
 ### Learn Web Development 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=HTML+%E2%86%92+CSS+%E2%86%92+JavaScript+%E2%86%92+React;Next.js+%E2%86%92+Node.js+%E2%86%92+Express+%E2%86%92+MongoDB;AI-Reviewed+Code+with+Gemini+%26+Grok;Learn.+Build.+Survive+the+Curriculum." alt="Typing SVG" />
 
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-8A2BE2?style=for-the-badge)](https://spectre-hub-frontend.vercel.app/)
-[![License](https://img.shields.io/github/license/your-username/spectre-hub?style=for-the-badge&color=blueviolet)](#-license)
-[![Last Commit](https://img.shields.io/github/last-commit/your-username/spectre-hub?style=for-the-badge&color=purple)](#)
-[![Repo Size](https://img.shields.io/github/repo-size/your-username/spectre-hub?style=for-the-badge&color=6f42c1)](#)
-[![Top Language](https://img.shields.io/github/languages/top/your-username/spectre-hub?style=for-the-badge&color=7c3aed)](#)
-
-[![Stars](https://img.shields.io/github/stars/your-username/spectre-hub?style=social)](#)
-[![Forks](https://img.shields.io/github/forks/your-username/spectre-hub?style=social)](#)
-[![Issues](https://img.shields.io/github/issues/your-username/spectre-hub?style=flat-square&color=purple)](#)
-
-<img src="https://profile-counter.glitch.me/spectre-hub/count.svg" alt="Visitor Count" />
 
 </div>
 
