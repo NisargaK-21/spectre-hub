@@ -1,110 +1,233 @@
-# Spectre-Hub
+<div align="center">
 
-# working demo link 
-https://spectre-hub-frontend.vercel.app/
+# SPECTRE-HUB
 
+### Learn Web Development 
 
-> **Learn Web Development Through a Horror-Themed Adventure.**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=HTML+%E2%86%92+CSS+%E2%86%92+JavaScript+%E2%86%92+React;Next.js+%E2%86%92+Node.js+%E2%86%92+Express+%E2%86%92+MongoDB;AI-Reviewed+Code+with+Gemini+%26+Grok;Learn.+Build.+Survive+the+Curriculum." alt="Typing SVG" />
 
-Spectre-Hub is an AI-powered web development learning platform designed to teach modern web development from **HTML to Deployment** through an immersive horror-themed experience.
+<br/>
 
-Unlike traditional learning platforms, Spectre-Hub first teaches concepts with detailed explanations, syntax, examples, and quizzes before assessing the learner with coding challenges. Every submitted solution is reviewed by **Gemini AI** or **Grok AI**, providing personalized feedback, improvements, and suggestions.
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-8A2BE2?style=for-the-badge)](https://spectre-hub-frontend.vercel.app/)
+[![License](https://img.shields.io/github/license/your-username/spectre-hub?style=for-the-badge&color=blueviolet)](#-license)
+[![Last Commit](https://img.shields.io/github/last-commit/your-username/spectre-hub?style=for-the-badge&color=purple)](#)
+[![Repo Size](https://img.shields.io/github/repo-size/your-username/spectre-hub?style=for-the-badge&color=6f42c1)](#)
+[![Top Language](https://img.shields.io/github/languages/top/your-username/spectre-hub?style=for-the-badge&color=7c3aed)](#)
+
+[![Stars](https://img.shields.io/github/stars/your-username/spectre-hub?style=social)](#)
+[![Forks](https://img.shields.io/github/forks/your-username/spectre-hub?style=social)](#)
+[![Issues](https://img.shields.io/github/issues/your-username/spectre-hub?style=flat-square&color=purple)](#)
+
+<img src="https://profile-counter.glitch.me/spectre-hub/count.svg" alt="Visitor Count" />
+
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/lightning.gif" width="100%">
+</p>
+
+---
+
+## 📖 Table of Contents
+
+- [About the Project](#-about-the-project)
+- [Why Spectre-Hub](#-why-spectre-hub)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Application Workflow](#-application-workflow)
+- [AI Review Flow](#-ai-review-flow)
+- [Project Structure](#-project-structure)
+- [MongoDB Collections](#-mongodb-collections)
+- [Backend Responsibilities](#-backend-responsibilities)
+- [Middleware & API Access](#-middleware--api-access)
+- [Why MongoDB](#-why-mongodb)
+- [Future Enhancements](#-future-enhancements)
+- [Back to Top](#-spectre-hub)
+
+---
+
+## 🕯️ About the Project
+
+> **Spectre-Hub** is an AI-powered web development learning platform designed to teach modern web development — from **HTML to Deployment** — through an immersive learning experience.
+
+Unlike traditional learning platforms, Spectre-Hub first teaches concepts with **detailed explanations, syntax, examples, and quizzes** before assessing the learner with hands-on coding challenges. Every submitted solution is reviewed by **Gemini AI** , providing personalized feedback, improvements, and suggestions.
 
 The platform tracks each learner's progress, allowing them to continue learning seamlessly while building a complete web development roadmap.
 
----
+<div align="center">
 
-# Features
+### 🔗 [**Try the Live Demo →**](https://spectre-hub-frontend.vercel.app/)
 
-## Authentication
-
-- Firebase Authentication
-- Email & Password Login
-- Secure Signup
-- Persistent User Sessions
+</div>
 
 ---
 
-## Learning Platform
+## 🌟 Why Spectre-Hub
 
-- HTML
-- CSS
-- JavaScript
-- React
-- Next.js
-- Node.js
-- Express.js
-- MongoDB
-- Firebase
-- REST APIs
-- Deployment
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+### 📚 Theory First
+Every stage begins with complete theory, syntax references, and practical examples before any coding is required.
 
-## Every Learning Stage Includes
+</td>
+<td width="33%" valign="top">
 
-- Complete Theory
-- Syntax Reference
-- Practical Examples
-- Interactive Quiz
-- Coding Assessment
-- AI Code Review
-- Personalized Suggestions
+### 🧠 AI-Powered Review
+Submitted code is reviewed by **Gemini AI / Grok AI**, giving bug detection, best-practice suggestions, and code quality analysis.
 
----
+</td>
+<td width="33%" valign="top">
 
-## AI Features
+### 📊 Progress Tracking
+A complete learning history — completed stages, AI review history, and profile progress — all in one place.
 
-- Code Review using Gemini AI / Grok AI
-- Bug Detection
-- Best Practice Suggestions
-- Code Quality Analysis
-- Learning Feedback
+</td>
+</tr>
+</table>
 
 ---
 
-## User Features
+## ✨ Features
 
-- User Profile
-- Progress Tracking
-- Completed Stages
-- Learning History
-- AI Review History
-
----
-
-# Tech Stack
-
-## Frontend
-
-- Next.js
-- React
-- Tailwind CSS
-- Axios
-- Monaco Editor
-
-## Backend
-
-- Node.js
-- Express.js
-
-## Database
-
-- MongoDB
-- Mongoose
-
-## Authentication
-
-- Firebase Authentication
-
-## AI
-
-- Gemini API
-- Grok API
+<table>
+<tr>
+<th>Category</th>
+<th>Details</th>
+</tr>
+<tr>
+<td><b>🔐 Authentication</b></td>
+<td>Firebase Authentication • Email & Password Login • Secure Signup • Persistent User Sessions</td>
+</tr>
+<tr>
+<td><b>🎓 Learning Platform</b></td>
+<td>HTML • CSS • JavaScript • React • Next.js • Node.js • Express.js • MongoDB • Firebase • REST APIs • Deployment</td>
+</tr>
+<tr>
+<td><b>📦 Every Learning Stage Includes</b></td>
+<td>Complete Theory • Syntax Reference • Practical Examples • Interactive Quiz • Coding Assessment • AI Code Review • Personalized Suggestions</td>
+</tr>
+<tr>
+<td><b>🤖 AI Features</b></td>
+<td>Code Review (Gemini AI / Grok AI) • Bug Detection • Best Practice Suggestions • Code Quality Analysis • Learning Feedback</td>
+</tr>
+<tr>
+<td><b>👤 User Features</b></td>
+<td>User Profile • Progress Tracking • Completed Stages • Learning History • AI Review History</td>
+</tr>
+</table>
 
 ---
 
-# Project Structure
+## 🧰 Tech Stack
+
+<div align="center">
+
+### Frontend
+![Next.js](https://skillicons.dev/icons?i=nextjs) ![React](https://skillicons.dev/icons?i=react) ![Tailwind CSS](https://skillicons.dev/icons?i=tailwind) ![JavaScript](https://skillicons.dev/icons?i=js)
+
+`Next.js` &nbsp;•&nbsp; `React` &nbsp;•&nbsp; `Tailwind CSS` &nbsp;•&nbsp; `Axios` &nbsp;•&nbsp; `Monaco Editor`
+
+### Backend
+![Node.js](https://skillicons.dev/icons?i=nodejs) ![Express](https://skillicons.dev/icons?i=express)
+
+`Node.js` &nbsp;•&nbsp; `Express.js`
+
+### Database
+![MongoDB](https://skillicons.dev/icons?i=mongodb)
+
+`MongoDB` &nbsp;•&nbsp; `Mongoose`
+
+### Authentication
+![Firebase](https://skillicons.dev/icons?i=firebase)
+
+`Firebase Authentication`
+
+### AI
+`Gemini API` &nbsp;•&nbsp; `Grok API`
+
+</div>
+
+---
+
+## 🏗️ Architecture
+
+```mermaid
+graph TD
+    A[Frontend - Next.js / React] -->|Axios Requests| B[Backend - Express.js]
+    B --> C[(MongoDB - Stages & Progress)]
+    B --> D[Gemini AI]
+    B --> E[Grok AI]
+    A -->|Auth| F[Firebase Authentication]
+    F -->|Verified Token| B
+
+    style A fill:#8A2BE2,color:#fff
+    style B fill:#4B0082,color:#fff
+    style C fill:#2E8B57,color:#fff
+    style D fill:#6f42c1,color:#fff
+    style E fill:#6f42c1,color:#fff
+    style F fill:#FFA500,color:#000
+```
+
+---
+
+## 🔄 Application Workflow
+
+```mermaid
+flowchart TD
+    Start([User Opens Spectre-Hub]) --> LoggedIn{Already Logged In?}
+    LoggedIn -- No --> Auth[Signup / Login]
+    LoggedIn -- Yes --> Home[Home Page]
+    Auth --> FBAuth[Firebase Authentication]
+    FBAuth --> Session[User Session Created]
+    Session --> Home
+    Home --> Select[Select Learning Stage]
+    Select --> Request[Frontend Requests Stage]
+    Request --> Backend[Express Backend]
+    Backend --> DB[(MongoDB)]
+    DB --> Content[Return Lesson Content]
+    Content --> Display["Frontend Displays:<br/>Theory • Syntax • Examples • Quiz • Code Editor"]
+    Display --> Submit[User Submits Code]
+    Submit --> Backend2[Express Backend]
+    Backend2 --> FetchStage[(Fetch Stage Data - MongoDB)]
+    Backend2 --> AIReview[Gemini / Grok Review Code]
+    FetchStage --> SaveProgress[Save User Progress]
+    AIReview --> SaveProgress
+    SaveProgress --> Feedback[Return AI Feedback]
+    Feedback --> ShowReview[Display Review]
+```
+
+---
+
+## 🧪 AI Review Flow
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant F as Frontend
+    participant B as Backend (Express)
+    participant P as Prompt Builder
+    participant AI as Gemini / Grok
+    participant DB as MongoDB
+
+    U->>F: Submit Code
+    F->>B: Send Code to Backend
+    B->>P: Build AI Prompt
+    P->>AI: Send Prompt
+    AI-->>B: Return AI Feedback
+    B->>DB: Save Progress
+    B-->>F: Return AI Feedback
+    F-->>U: Display Review
+```
+
+---
+
+## 📂 Project Structure
+
+<details>
+<summary><b>Click to expand full folder tree</b></summary>
 
 ```text
 spectre-hub/
@@ -146,14 +269,9 @@ spectre-hub/
 │   ├── context/
 │   │     └── AuthContext.js                   # Firebase Authentication Context
 │   │
-│   ├── services/
-│   │     ├── api.js                           # Backend API Calls
-│   │     └── firebase.js                      # Firebase Configuration
-│  
-│  
-│        
-│                     
-│
+│   └── services/
+│         ├── api.js                           # Backend API Calls
+│         └── firebase.js                      # Firebase Configuration
 │
 ├── backend/                                   # Express Backend
 │
@@ -180,83 +298,17 @@ spectre-hub/
 └── README.md
 ```
 
----
-
-# Application Workflow
-
-```text
-User Opens Spectre-Hub
-          │
-          ▼
-Already Logged In?
-          │
-     ┌────┴────┐
-     │         │
-    No        Yes
-     │         │
-     ▼         ▼
- Signup/Login  Home
-     │
-     ▼
- Firebase Authentication
-     │
-     ▼
- User Session Created
-     │
-     ▼
- Home Page
-     │
-     ▼
- Select Learning Stage
-     │
-     ▼
- Frontend Requests Stage
-     │
-     ▼
- Express Backend
-     │
-     ▼
- MongoDB
-(Return Lesson Content)
-     │
-     ▼
- Frontend Displays
-
- • Theory
- • Syntax
- • Examples
- • Quiz
- • Code Editor
-
-     │
-     ▼
- User Submits Code
-     │
-     ▼
- Express Backend
-     │
-     ├────────────► MongoDB
-     │             Fetch Stage Data
-     │
-     └────────────► Gemini / Grok
-                   Review Code
-     │
-     ▼
- Save User Progress
-     │
-     ▼
- Return AI Feedback
-     │
-     ▼
- Display Review
-```
+</details>
 
 ---
 
-# MongoDB Collections
+## 🗄️ MongoDB Collections
 
-## Stages
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### 📘 Stages
 Stores all learning content.
 
 ```text
@@ -272,10 +324,10 @@ Difficulty
 XP Reward
 ```
 
----
+</td>
+<td width="50%" valign="top">
 
-## Progress
-
+### 📗 Progress
 Stores every user's learning progress.
 
 ```text
@@ -288,13 +340,16 @@ Completed
 Last Attempt
 ```
 
+</td>
+</tr>
+</table>
+
 ---
 
-# Backend Responsibilities
+## ⚙️ Backend Responsibilities
 
-## stage.js
-
-Responsible for:
+<details>
+<summary><b>📄 stage.js</b></summary>
 
 - Fetching learning stages
 - Returning lesson content
@@ -302,64 +357,51 @@ Responsible for:
 - Calling Gemini/Grok
 - Saving progress
 
----
+</details>
 
-## user.js
-
-Responsible for:
+<details>
+<summary><b>📄 user.js</b></summary>
 
 - Returning profile information
 - Returning completed stages
 - Returning progress history
 
----
-
-# Middleware
-
-Firebase Authentication middleware protects private APIs.
-
-Protected APIs
-
-- Profile
-- Progress
-- Code Submission
-
-Public APIs
-
-- View Stages (Optional)
-- Landing Page
+</details>
 
 ---
 
-# AI Review Flow
+## 🔒 Middleware & API Access
 
-```text
-User Code
-      │
-      ▼
-Backend
-      │
-      ▼
-Prompt Builder
-      │
-      ▼
-Gemini / Grok
-      │
-      ▼
-AI Feedback
-      │
-      ▼
-Save Progress
-      │
-      ▼
-Frontend Displays Review
+> Firebase Authentication middleware protects private APIs.
+
+```mermaid
+graph LR
+    subgraph Protected APIs
+    A[Profile]
+    B[Progress]
+    C[Code Submission]
+    end
+
+    subgraph Public APIs
+    D[View Stages - Optional]
+    E[Landing Page]
+    end
+
+    F[Firebase Auth Middleware] --> A
+    F --> B
+    F --> C
 ```
 
+| API Type | Endpoints |
+|----------|-----------|
+| 🔐 **Protected** | Profile, Progress, Code Submission |
+| 🌍 **Public** | View Stages (Optional), Landing Page |
+
 ---
 
-# Why MongoDB?
+## 🧭 Why MongoDB?
 
-MongoDB stores all application data except authentication.
+> MongoDB stores all application data **except authentication**.
 
 It stores:
 
@@ -375,13 +417,27 @@ Authentication is completely managed by **Firebase Authentication**, making the 
 
 ---
 
-# Future Enhancements
+## 🚀 Future Enhancements
 
-- Boss Battles
-- XP System
-- Daily Challenges
-- Achievements
-- AI Mentor
-- Dark Mode Themes
-- Streak Tracking
-- Coding assessment
+> The following are planned ideas and are **not yet implemented**.
+
+- [ ] Boss Battles
+- [ ] XP System
+- [ ] Daily Challenges
+- [ ] Achievements
+- [ ] AI Mentor
+- [ ] Dark Mode Themes
+- [ ] Streak Tracking
+- [ ] Coding assessment
+
+---
+
+<div align="center">
+
+### Learn Web Development. Survive the Curriculum.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Visit_Spectre--Hub-8A2BE2?style=for-the-badge)](https://spectre-hub-frontend.vercel.app/)
+
+[⬆ Back to Top](#-spectre-hub)
+
+</div>
